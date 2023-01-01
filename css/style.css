@@ -13,9 +13,9 @@
     box-sizing: border-box;
     margin: 0;
 }
-/* body{
+body{
     overflow-x: hidden;
-} */
+}
 /* start navigation */ 
 .header_area{
     width: 100%;
@@ -23,8 +23,11 @@
 
 .header_area .main-menu .navbar .navbar-brand{
     padding-left:5rem ;
-    font: normal 600 20px/10px var(--roboto);
+    font: normal 700 25px/10px var(--roboto);
     text-transform: uppercase;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip: text;
 }
 
 .header_area .main-menu .navbar{
