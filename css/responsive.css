@@ -1,5 +1,5 @@
 /* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 340px){
+@media only screen and (max-width: 345px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
@@ -16,13 +16,9 @@
         font-size: 41px;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem    !important;
+    .site-main .project-area .grid .our-project > .title h4{
+        font: normal 700 20px/12px var(--roboto);
     }
-
-    /* .site-main > .services-area .services{
-        width: 16rem;
-    } */
 
 }
 
@@ -31,7 +27,7 @@
 /* if the viewport is equal to 768px or less than that */ 
 @media only screen and (max-width: 768px){
     .site-main .about-area .about-title h2 > span{
-        font-size: 31px;
+        font-size: 25px;
         letter-spacing: 10px;
     }
     .site-main .brand-area .experience-area .years-area{
@@ -56,10 +52,6 @@
         padding: 0%;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 20rem;
-        margin: 5%;
-    }
 }
 
 
@@ -69,11 +61,6 @@
     .header_area .main-menu .navbar{
         padding: 1rem;
     }
-
-    .container{
-        max-width: 90%;
-    }
-
     .site-main .brand-area,
     .site-main .services-area .services-title,
     .site-main .about-area{
@@ -89,9 +76,12 @@
         padding-left: 20rem;
     }
 }
-/* @media only screen and (min-width: 900px) {
-    .header_area .main-menu .navbar-nav
-    {
-        padding-left: 9rem;
+
+
+@media only screen and (min-width: 900px) {
+    .site-main .project-area .button-group button + button{
+        padding-left: 2rem;
+        margin-bottom: 4rem;
+    
     }
-} */
+}
