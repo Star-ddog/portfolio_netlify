@@ -43,11 +43,6 @@
         width: 49%;
     }
 
-    .site-main .brand-area .experience-area .bg-panel{
-        margin-left: 30%;
-        width: 80%;   
-    }
-
     .site-main .brand-area .experience-area .call-area{
         padding-left: 3%;
     }
@@ -64,7 +59,7 @@
 
 
 
-/* if the viewport is equal to 1910px or less than that */ 
+
 @media only screen and (max-width: 1910px){
     .header_area .main-menu .navbar{
         padding: 1rem;
