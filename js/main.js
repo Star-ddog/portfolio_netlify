@@ -11,7 +11,7 @@ $(document).ready(function () {
         e.target.classList.add('active');
 
         let selector = $(e.target).attr('data-filter');
-        $('.project-area .grid').isotope({
+        $('.project-area .flex').isotope({
             filter: selector
         }); 
 
