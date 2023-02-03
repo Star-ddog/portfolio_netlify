@@ -283,10 +283,13 @@ body{
     
 }
 .site-main  .project-area .flex .our-project{
+    padding: 10px;
     margin: 1.5rem .5rem;
-    min-width: 280px;
+    width: 350px;
     height: 450px;
     position: relative;
+    border: 3px solid white;
+    border-radius: 12px;
     
 }
 .site-main .project-area .flex .our-project > .title h4{
@@ -312,7 +315,11 @@ body{
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
+}
+.site-main .project-area .flex .our-project .visit-site{
+   position: absolute;
+   bottom: 0%;
 }
 
 
