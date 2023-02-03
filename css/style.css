@@ -285,8 +285,8 @@ body{
 .site-main  .project-area .flex .our-project{
     padding: 10px;
     margin: 1.5rem .5rem;
-    width: 350px;
-    height: 450px;
+    min-width: 280px;
+    height: 470px;
     position: relative;
     border: 3px solid white;
     border-radius: 12px;
@@ -294,6 +294,7 @@ body{
 }
 .site-main .project-area .flex .our-project > .title h4{
     font: normal 700 25px/12px var(--roboto);
+    font-size: 20px;
 }
 
 .site-main .project-area .flex .our-project .img a img{
@@ -318,6 +319,7 @@ body{
     padding: .7rem 1rem;
 }
 .site-main .project-area .flex .our-project .visit-site{
+    margin-top: 0px;
    position: absolute;
    bottom: 0%;
 }
