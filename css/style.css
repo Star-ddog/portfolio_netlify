@@ -228,13 +228,15 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 }
 
 .site-main > .services-area .services:hover{
     box-shadow: var(--box-shadow);
 }
 .site-main > .services-area .services img{
-    width: 100%;
+    max-width: 100%;
+    width: 60%;
 }
 
 

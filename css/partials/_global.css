@@ -88,6 +88,9 @@ p.para
     color: var(--text-color);
     font: normal 500 18px/30px var(--roboto);
     opacity: 0.7;
+    text-align: justify;
+    line-height: 1.6;
+    word-spacing: 4px;
 }
 
 .font-roboto{
