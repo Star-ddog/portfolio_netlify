@@ -27,6 +27,10 @@
         padding-left:1rem;
         font: normal 600 20px/10px var(--roboto);
     }
+    .site-main .brand-area .first-row .none{
+        display: none;
+    
+    }
 
 }
 
@@ -54,6 +58,7 @@
     .site-main .about-area .about-title p{
         padding: 0%;
     }
+    
 
 }
 
@@ -86,5 +91,15 @@
         padding-left: 2rem;
         margin-bottom: 4rem;
     
+    }
+    .site-main  .project-area .flex .our-project{
+        min-width: 280px;
+        height: 450px;
+        position: relative;
+        
+    }
+    .site-main .project-area .flex .our-project .visit-site{
+        position: absolute;
+        bottom: 0px;
     }
 }

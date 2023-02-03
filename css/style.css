@@ -276,18 +276,27 @@ body{
     margin-bottom: 1rem;
 
 }
-.site-main  .project-area .flex .our-project{
-    margin: 1.5rem .5rem;
+.site-main  .project-area .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
 }
-
+.site-main  .project-area .flex .our-project{
+    margin: 1.5rem .5rem;
+    min-width: 280px;
+    height: 450px;
+    position: relative;
+    
+}
 .site-main .project-area .flex .our-project > .title h4{
     font: normal 700 25px/12px var(--roboto);
 }
 
 .site-main .project-area .flex .our-project .img a img{
     width: 100%;
-    height: 200px;
+    max-height: 100%;
+    height: 90%;
     object-fit: cover;
 }
 .site-main .project-area .flex .our-project .img a:hover img{
@@ -305,6 +314,7 @@ body{
     text-decoration: none;
     padding: .5rem 1rem;
 }
+
 
 /* End Project Area */ 
 
