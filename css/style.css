@@ -310,7 +310,7 @@ body{
 }
 .site-main .project-area .flex .our-project .visit-site a{
     background: transparent;
-    font: normal 600 13px/30px var(--roboto);
+    font: normal 400 13px/30px var(--roboto);
     cursor: pointer;
     background: linear-gradient(90.21deg, rgb(170, 54, 124) -5.91%, rgb(74, 47, 189) 111.58%);
     border-radius: 3px;
@@ -318,7 +318,7 @@ body{
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
-    padding: .5rem 1rem;
+    padding: .2rem 1rem;
 }
 .site-main .project-area .flex .our-project .visit-site{
    position: absolute;
@@ -327,7 +327,6 @@ body{
    justify-content: space-between;
    max-width: 100%;
    width: 95%;
-   
    padding: 0 1rem;
 }
 
