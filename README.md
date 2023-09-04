@@ -1,3 +1,3 @@
 # portfolio_netlify
 
-this is my portfolio website where im displaying my work
+this is my portfolio website where I display and showcase my work
