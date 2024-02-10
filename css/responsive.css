@@ -51,9 +51,12 @@
     }
 
     .site-main .project-area .button-group button{
-        font: normal 500 15px/30px var(--roboto);
+        font: normal 200 15px/30px var(--roboto);
     }
-
+    .site-main .project-area .button-group button:hover{
+        background: none;
+        font-size: none;
+    }
     .site-main .about-area .about-title p{
         padding: 0%;
     }
