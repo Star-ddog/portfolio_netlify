@@ -51,7 +51,7 @@
     }
 
     .site-main .project-area .button-group button{
-        font: normal 500 18px/40px var(--roboto);
+        font: normal 500 15px/30px var(--roboto);
     }
 
     .site-main .about-area .about-title p{
@@ -87,7 +87,7 @@
 
 @media only screen and (min-width: 900px) {
     .site-main .project-area .button-group button + button{
-        padding-left: 2rem;
+        padding-left: 1rem;
         margin-bottom: 4rem;
     
     }
